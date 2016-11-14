@@ -32,7 +32,7 @@
         "license":                  "MIT",
         "singletonHost":             true,
         "readme":                   "https://github.com/ioBroker/ioBroker.rpi2/blob/master/README.md",
-        "icon":                     "rpi.png",
+        "icon":                     "Pine64.png",
         "type":                     "hardware",
         "config":{
             "minWidth":   650,
@@ -40,7 +40,7 @@
             "minHeight":  600,
             "height":     600
         },
-        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.rpi2/master/admin/rpi.png"
+        "extIcon":                  "https://raw.githubusercontent.com/Homoran/ioBroker.Pine64/master/admin/Pine64.png"
     },
     "native": {
         "c_cpu": true,
