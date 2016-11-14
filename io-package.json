@@ -7,7 +7,7 @@
 			"de": "Pine64-Monitor für ioBroker",
 			"ru": "Pine64-Монитор для ioBroker"
 		},
-        "version":                  "0.2.1",
+        "version":                  "0.0.1",
         "news": {
             "0.2.1": {
                 "en": "fix start of adapter",
@@ -24,7 +24,7 @@
         "platform":                 "javascript/Node.js",
         "os":                       ["linux", "darwin"],
         "loglevel":                 "info",
-        "keywords":                 ["ioBroker", "monitoring", "raspberry", "orangepi", "odroid", "bananapi", "gpio"],
+        "keywords":                 ["ioBroker", "monitoring", "Pine64"],
         "main":                     "main.js",
         "authors": [
             "Christian Baumgartner", "husky-koglhof <husky.koglhof@icloud.com>"
