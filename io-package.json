@@ -9,15 +9,10 @@
 		},
         "version":                  "0.0.1",
         "news": {
-            "0.2.1": {
-                "en": "fix start of adapter",
-                "de": "Korrigiert Adapterstart",
-                "ru": "Исправлен старт драйвера"
-            },
-            "0.2.0": {
-                "en": "implement GPIOs control",
-                "de": "Implementiert die Steuerung von GPIOs",
-                "ru": "Добавлено управление GPIOs"
+            "0.0.1": {
+                "en": "initial commit",
+                "de": "Erste Version",
+                "ru": ""
             }
         },
         "mode":                     "daemon",
