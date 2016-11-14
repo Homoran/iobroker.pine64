@@ -1,11 +1,11 @@
 {
     "common": {
-        "name":                     "rpi2",
-        "title":                    "RPI-Monitor",
+        "name":                     "Pine64",
+        "title":                    "Pine64-Monitor",
         "desc":                     {
-			"en": "RPI-Monitor for ioBroker Installations",
-			"de": "RPI-Monitor für ioBroker",
-			"ru": "RPI-Монитор для ioBroker"
+			"en": "Pine64-Monitor for ioBroker Installations",
+			"de": "Pine64-Monitor für ioBroker",
+			"ru": "Pine64-Монитор для ioBroker"
 		},
         "version":                  "0.2.1",
         "news": {
@@ -149,7 +149,7 @@
             "soc_temp": {
                 "command": "cat /sys/devices/virtual/thermal/thermal_zone0/temp",
                 "regexp": "(.*)",
-                "post": "$1/1000"
+                "post": "$1/1"
             }
         },
         "uptime": {
