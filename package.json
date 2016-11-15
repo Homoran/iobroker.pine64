@@ -1,7 +1,7 @@
 {
-  "name": "iobroker.rpi2",
-  "description": "RPI-Monitor for ioBroker Installations",
-  "version": "0.2.1",
+  "name": "iobroker.Pine64",
+  "description": "Pine64-Monitor for ioBroker Installations",
+  "version": "0.0.1",
   "engines" : { 
 	"node" : ">=0.12" 
   },
@@ -25,18 +25,18 @@
     "grunt-jscs": "^2.0.0",
     "grunt-http": "^1.6.0"
   },
-  "homepage": "https://github.com/ioBroker/ioBroker.rpi2",
+  "homepage": "https://github.com/Homoran/ioBroker.Pine64",
   "license": "MIT",
-  "keywords": ["ioBroker", "monitoring", "raspberry", "orangepi", "odroid", "bananapi"],
+  "keywords": ["ioBroker", "monitoring", "Pine64"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ioBroker/ioBroker.rpi2"
+    "url": "https://github.com/Homoran/ioBroker.Pine64"
   },
   "os": [
     "linux"
   ],
   "bugs": {
-    "url": "https://github.com/ioBroker/ioBroker.rpi2/issues"
+    "url": "https://github.com/Homoran/ioBroker.Pine64/issues"
   },
   "main": "main.js",
   "readmeFilename": "README.md"
