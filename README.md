@@ -1,4 +1,4 @@
-![Logo](admin/rpi.png)
+![Logo](admin/Pine64.png)
 ioBroker Pine64-Monitor Adapter
 ==============
 
