@@ -1,5 +1,5 @@
 ![Logo](admin/rpi.png)
-ioBroker RPI-Monitor Adapter
+ioBroker Pine64-Monitor Adapter
 ==============
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.rpi2.svg)](https://www.npmjs.com/package/iobroker.rpi2)
@@ -7,7 +7,9 @@ ioBroker RPI-Monitor Adapter
 
 [![NPM](https://nodei.co/npm/iobroker.rpi2.png?downloads=true)](https://nodei.co/npm/iobroker.rpi2/)
 
-RPI-Monitor implementation for integration into ioBroker. It is the same implementation as for iobroker.rpi, but with GPIOs.
+Pine64-Monitor implementation for integration into ioBroker. It is derived from iobroker.rpi with GPIOs, but not yet tested.
+
+Tested only with armbian - GPIOs not tested
 
 ## Important Information
 Works only with node >= 0.12
@@ -17,9 +19,9 @@ Works only with node >= 0.12
 ## Installation
 After installation you have to configure all required modules via administration page.
 
-After start of iobroker.rpi, all selected modules generates
-an object tree in ioBroker within rpi.<instance>.<modulename>
-e.g. rpi.0.cpu
+After start of iobroker.Pine64, all selected modules generates
+an object tree in ioBroker within Pine64.<instance>.<modulename>
+e.g. Pine64.0.cpu
 
 Be sure, that python and build-essential are installed:
 
@@ -54,8 +56,8 @@ Following Objects are available after selection:
 - net_send
 
 #### **SDCard**
-- sdcard_boot_total
-- sdcard_boot_used
+- *sdcard_boot_total* (not supprted by armbian therefore removed)
+- *sdcard_boot_used* (not supprted by armbian therefore removed)
 - sdcard_root_total
 - sdcard_root_used
 
@@ -103,32 +105,12 @@ All what you need to do is to configure in the settings the GPIOs options (addit
 ![GPIOs](img/pi3_gpio.png)
 
 After some ports are enabled following states appear in the object tree:
-- rpi.0.gpio.PORT.state
+- Pine64.0.gpio.PORT.state
 
 ## Changelog
 
-### 0.2.1 (2016-10-29)
- - (bluefox) fix start of adapter
-
-### 0.2.0 (2016-10-23)
- - (bluefox) just version change
  
-### 0.1.1 (2016-10-13)
- - (bluefox) implement GPIOs control
-
-### 0.0.4 (2016-03-25)
- - (bluefox) Try catch by eval
-   (bluefox) do not process if exec fails
-   
-### 0.0.3 (2015-12-28)
- - (husky-koglhof) Fixed value calc.
-   Set Value to 2 digits
-   
-### 0.0.2 (2015-12-26)
- - (husky-koglhof) Workaround for node 0.10.x
- - (bluefox) Some Fixes
- 
-### 0.0.1 (2015-12-23)
+### 0.0.1 (2016-11-16)
  - Initial commit. Alpha Version.
 
 ## License
